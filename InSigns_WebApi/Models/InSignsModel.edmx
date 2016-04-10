@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="insignsModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="phrase">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="mediumint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="situation_id" Type="mediumint" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="videoUrl" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="situation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="mediumint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <Association Name="phrase_ibfk_1">
+          <End Role="situation" Type="Self.situation" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phrase" Type="Self.phrase" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="situation">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="phrase">
+              <PropertyRef Name="situation_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="insignsModelStoreContainer">
+          <EntitySet Name="phrase" EntityType="Self.phrase" Schema="insigns" store:Type="Tables" />
+          <EntitySet Name="situation" EntityType="Self.situation" Schema="insigns" store:Type="Tables" />
+          <AssociationSet Name="phrase_ibfk_1" Association="Self.phrase_ibfk_1">
+            <End Role="situation" EntitySet="situation" />
+            <End Role="phrase" EntitySet="phrase" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="insignsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="phrase">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="situation_id" Type="Int32" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="videoUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="situation" Relationship="Self.phrase_ibfk_1" FromRole="phrase" ToRole="situation" />
+        </EntityType>
+        <EntityType Name="situation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="phrases" Relationship="Self.phrase_ibfk_1" FromRole="situation" ToRole="phrase" />
+        </EntityType>
+        <Association Name="phrase_ibfk_1">
+          <End Role="situation" Type="Self.situation" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phrase" Type="Self.phrase" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="situation">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="phrase">
+              <PropertyRef Name="situation_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="InSignsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="phrases" EntityType="Self.phrase" />
+          <EntitySet Name="situations" EntityType="Self.situation" />
+          <AssociationSet Name="phrase_ibfk_1" Association="Self.phrase_ibfk_1">
+            <End Role="situation" EntitySet="situations" />
+            <End Role="phrase" EntitySet="phrases" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="insignsModelStoreContainer" CdmEntityContainer="InSignsEntities">
+          <EntitySetMapping Name="phrases">
+            <EntityTypeMapping TypeName="insignsModel.phrase">
+              <MappingFragment StoreEntitySet="phrase">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="situation_id" ColumnName="situation_id" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="videoUrl" ColumnName="videoUrl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="situations">
+            <EntityTypeMapping TypeName="insignsModel.situation">
+              <MappingFragment StoreEntitySet="situation">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

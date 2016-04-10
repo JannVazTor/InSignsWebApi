@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="insignsModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="phrase">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="mediumint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="situation_id" Type="mediumint" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="videoUrl" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="situation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="mediumint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="phrase_ibfk_1">
+    <End Role="situation" Type="Self.situation" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="phrase" Type="Self.phrase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="situation">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="phrase">
+        <PropertyRef Name="situation_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="insignsModelStoreContainer">
+    <EntitySet Name="phrase" EntityType="Self.phrase" Schema="insigns" store:Type="Tables" />
+    <EntitySet Name="situation" EntityType="Self.situation" Schema="insigns" store:Type="Tables" />
+    <AssociationSet Name="phrase_ibfk_1" Association="Self.phrase_ibfk_1">
+      <End Role="situation" EntitySet="situation" />
+      <End Role="phrase" EntitySet="phrase" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

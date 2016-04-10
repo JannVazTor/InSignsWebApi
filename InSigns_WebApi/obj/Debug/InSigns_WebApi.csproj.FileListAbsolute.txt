@@ -1,0 +1,130 @@
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\ApplicationInsights.config
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\csc.exe
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\vbc.exe
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.dll.config
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.pdb
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Antlr3.Runtime.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Web.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Newtonsoft.Json.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Helpers.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Mvc.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Optimization.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Razor.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\WebGrease.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Web.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Newtonsoft.Json.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Helpers.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Mvc.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Optimization.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Razor.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.csprojResolveAssemblyReference.cache
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.pdb
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\MySql.Data.dll
+C:\Users\JANN\Source\Repos\NASECamaronApp\InSigns_WebApi\InSigns_WebApi\bin\MySql.Data.Entity.EF6.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\ApplicationInsights.config
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\csc.exe
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\vbc.exe
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.dll.config
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\InSigns_WebApi.pdb
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Antlr3.Runtime.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Web.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\MySql.Data.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\MySql.Data.Entity.EF6.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Newtonsoft.Json.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Helpers.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Mvc.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Optimization.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Razor.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\WebGrease.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.Web.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Newtonsoft.Json.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Helpers.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Mvc.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Optimization.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.Razor.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.csprojResolveAssemblyReference.cache
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.dll
+C:\Users\JANN\Documents\Visual Studio 2015\Projects\InSigns_WebApi\InSigns_WebApi\obj\Debug\InSigns_WebApi.pdb
